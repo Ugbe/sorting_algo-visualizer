@@ -221,7 +221,7 @@ def main():
 
     while run:
         clock.tick(60)
-        draw(draw_info, sorting_name, ascending)
+        draw(draw_info, sorting_name, ascending)  # call the draw function
         if sorting:
             try:
                 next(sorting_algorithm_generator)
